@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+body {
+    background-color: lightblue;
+    font-family: Dancing Script;
+    font-size: 2em;
+  
+}
+
+h1 {
+    color: darkslateblue;
+    font-family: Fredericka the Great;
+    text-align: center;
+
+
+}
+
+h2 {
+    font-weight: 25px;
+
+}
+
+.blanco {
+    color: white;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 40px;
+}
