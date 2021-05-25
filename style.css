@@ -1,38 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 body {
-    background-color: lightblue;
-    font-family: Dancing Script;
-    font-size: 2em;
-  
+	background-color: lightblue;
+	font-family: Dancing Script;
+	font-size: 2em;
 }
 
-h1 {
-    color: darkslateblue;
-    font-family: Fredericka the Great;
-    text-align: center;
-
-
+/* h1 {
+	color: darkslateblue;
+	font-family: Fredericka the Great;
+	text-align: center;
 }
 
 h2 {
-    font-weight: 25px;
-
+	font-weight: 25px;
 }
 
 .blanco {
-    color: white;
+	color: white;
 }
 
 .contenido {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:hover {
-    font-size: 40px;
+	font-size: 40px;
+} */
+
+.contenedor-padre > h1 {
+	height: 100px;
+}
+
+/* .contenedor-padre > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	background-color: aqua;
+}
+
+.contenedor-padre > div > p,
+.contenedor-padre > div > span {
+	text-align: center;
+}
+
+.contenedor-padre > div > p {
+	background-color: yellow;
+}
+
+.contenedor-padre > div > span {
+	background-color: blue;
+	align-self: flex-end;
+}
+.contenedor-padre:hover {
+	transform: scale(1.05);
+}
+ */
+@media (min-width: 600px) and (max-width: 950px) {
+	.contenedor-padre > h1 {
+		height: 300px;
+		background-color: red;
+	}
+}
+
+@media (max-width: 600px) {
+	/* .contenedor-padre {
+		width: 100%;
+	}
+
+	.contenedor-padre > div {
+		margin: 0;
+	} */
+	.contenedor-padre > h1 {
+		height: 500px;
+		background-color: yellow;
+	}
+	.contenedor-padre > p {
+		color: wheat;
+		background-color: peru;
+	}
 }
